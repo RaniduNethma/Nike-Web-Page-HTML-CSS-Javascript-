@@ -11,5 +11,9 @@ HTML | CSS | Javascript
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/Nethma97/Nike-Web-Page-HTML-CSS-Javascript-/blob/main/Screenshots/Screenshot%20(3).png)
+
+![App Screenshot](https://github.com/Nethma97/Nike-Web-Page-HTML-CSS-Javascript-/blob/main/Screenshots/Screenshot%20(4).png)
+
+![App Screenshot](https://github.com/Nethma97/Nike-Web-Page-HTML-CSS-Javascript-/blob/main/Screenshots/Screenshot%20(5).png)
 
