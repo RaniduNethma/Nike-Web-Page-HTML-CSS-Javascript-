@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Nike - Just Do It</title>
+        <link rel="stylesheet" href="nike-style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+            <header>
+                <a href="#"><img src="images/Nike-Logo.png" class="logo"></a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textbox">
+                    <h2>JUST DO IT<br><span>Essential Kicks</span></h2><br>
+                    <p>Score everything you'll need for day one and beyond.<br>
+                        Score up to 50% off on select sale styles - no code required.
+                        Exclusions apply.</p>
+                    <a>Shop</a>
+                </div>
+                <div class="imgBox">
+                    <img src="images\nike-shoe-01.png" class="nike">
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="images\nike-shoe-01.png" onclick="imgSlider('images/nike-shoe-01.png');changeCircleColor('#89B6dF')"></li>
+                <li><img src="images\nike-shoe-02.png" onclick="imgSlider('images/nike-shoe-02.png');changeCircleColor('#A7A3C4')"></li>
+                <li><img src="images\nike-shoe-03.png" onclick="imgSlider('images/nike-shoe-03.png');changeCircleColor('#F58D58')"></li>
+            </ul>
+            <ul class="socialmedia">
+                <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook-square' ></i></a></li>
+                <li><a href="https://twitter.com/?lang=en"><i class='bx bxl-twitter' ></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram' ></i></a></li>
+                <li><a href="https://www.tiktok.com/en/"><i class='bx bxl-tiktok'></i></a></li>
+                <li><a href="https://www.reddit.com/"><i class='bx bxl-reddit'></i></a></li>
+            </ul>
+        </section>
+
+        <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector('.nike').src = anything;
+            }
+
+            function changeCircleColor(color){
+                const circle = document.querySelector('.circle');
+                circle.style.background = color;
+            }
+        </script>
+    </body>
+</html>
